@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 using CNC_選刀.inc;
 using utility;
@@ -72,7 +71,7 @@ namespace CNC_選刀
         void load_data()
         {
             var m = my.explode("\n", CC.data);
-            for (int i = 0, max_i = m.Count(); i < max_i; i++)
+            for (int i = 0, max_i = m.Length; i < max_i; i++)
             {
                 if (!my.is_istring_like(my.strtoupper(m[i].Trim()), "M6T"))
                 {
@@ -103,7 +102,7 @@ namespace CNC_選刀
         {
             GBox.Controls.Clear();
             //List<TextBox> myTextboxList = new List<TextBox>();
-            for (int i = 0; i < CC.m_data.Count() - 1; i++)
+            for (int i = 0; i < CC.m_data.Count - 1; i++)
             {
                 //myTextboxList.Add(new TextBox());
                 ComboBox a = new ComboBox();
@@ -157,7 +156,7 @@ namespace CNC_選刀
 
         private void save_btn_Click(object sender, EventArgs e)
         {
-            int items = CC.m_data.Count() - 1;
+            int items = CC.m_data.Count - 1;
             string message = "";
             List<string> CBoxs = new List<string>();
             foreach (Control tb in GBox.Controls)

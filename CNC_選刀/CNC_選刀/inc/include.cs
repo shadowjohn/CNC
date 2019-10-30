@@ -88,7 +88,7 @@ namespace utility
         }
         public string implode(string keyword, List<string> arrays)
         {
-            return string.Join<string>(keyword, arrays);
+            return string.Join(keyword, arrays.ToArray());
         }
         public byte[] file_get_contents(string url)
         {

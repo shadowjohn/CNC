@@ -7,3 +7,12 @@ C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.exe
 C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.pdb
 C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Form1.resources
 C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csprojResolveAssemblyReference.cache
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.exe.config
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.exe
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.pdb
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.exe
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.pdb
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csprojResolveAssemblyReference.cache
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Form1.resources
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Properties.Resources.resources
+E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csproj.GenerateResource.Cache
