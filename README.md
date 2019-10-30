@@ -5,4 +5,4 @@
   會自動依照 M6Tx 作出選擇器
   選完後儲存，就會寫回原本的檔案
   
-<img src="screenshot/screenshot1.png">
+<img src="screenshot/screenshot1.jpg">
