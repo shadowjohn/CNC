@@ -1,0 +1,9 @@
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.exe.config
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.exe
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.pdb
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Properties.Resources.resources
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csproj.GenerateResource.Cache
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.exe
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.pdb
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Form1.resources
+C:\Users\John\Desktop\KLINETEST\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csprojResolveAssemblyReference.cache
