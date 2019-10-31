@@ -16,3 +16,12 @@ E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csprojResolveAssembl
 E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Form1.resources
 E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Properties.Resources.resources
 E:\mytools\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csproj.GenerateResource.Cache
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.exe.config
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.exe
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.pdb
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.exe
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\bin\Debug\CNC_選刀.pdb
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csprojResolveAssemblyReference.cache
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Form1.resources
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.Properties.Resources.resources
+D:\個人開發軟體\CNC\CNC_-\CNC_選刀\CNC_選刀\obj\Debug\CNC_選刀.csproj.GenerateResource.Cache

@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using CNC_選刀.inc;
 using utility;
+using System.IO;
+
 namespace CNC_選刀
 {
 
@@ -53,6 +55,7 @@ namespace CNC_選刀
                 reset_data();
                 return;
             }
+
             string sn = my.subname(files[0].ToString());
 
             if (sn != "nc" && sn != "txt")
@@ -68,11 +71,18 @@ namespace CNC_選刀
             CC.m_data = new List<string>();
             load_data();
         }
+        List<int> listIndex = new List<int>();
+        static List<string> listData = new List<string>();
         void load_data()
         {
-            var m = my.explode("\n", CC.data);
+            //var m = my.explode("\n", CC.data);
+            listIndex = new List<int>();
+            var m = CC.data.Trim().Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
+            listData = new List<string>(m);
             for (int i = 0, max_i = m.Length; i < max_i; i++)
             {
+                if (m[i].ToString().Trim().IndexOf("M6T")==0)
+                    listIndex.Add(i);
                 if (!my.is_istring_like(my.strtoupper(m[i].Trim()), "M6T"))
                 {
                     if (CC.m_data.Count == 0)
@@ -184,9 +194,18 @@ namespace CNC_選刀
                 output.Add(CBoxs[i]);
             }
             output.Add(CC.m_data[CC.m_data.Count - 1]);
+
+
+            for (int i = 0; i < listIndex.Count; i++)
+            {
+                listData[listIndex[i]] = CBoxs[i];
+            }
+           
             try
             {
-                my.file_put_contents(CC.orin_path, my.s2b(my.implode("\r\n", output)));
+                //my.file_put_contents(CC.orin_path, my.s2b(my.implode("\r\n", output)));
+                File.WriteAllText(CC.orin_path, string.Join("\r\n", listData.ToArray()));
+
                 MessageBox.Show("儲存成功");
             }
             catch(Exception ex)
