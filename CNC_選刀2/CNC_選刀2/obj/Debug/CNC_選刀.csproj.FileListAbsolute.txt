@@ -38,6 +38,7 @@ C:\Users\Lai-Q\Desktop\CNC-master\CNC-master\CNC_選刀\CNC_選刀\obj\Debug\CNC
 C:\Users\john.GIS\Desktop\CNC\CNC_選刀2\CNC_選刀2\bin\Debug\CNC_選刀.exe.config
 C:\Users\john.GIS\Desktop\CNC\CNC_選刀2\CNC_選刀2\bin\Debug\CNC_選刀.exe
 C:\Users\john.GIS\Desktop\CNC\CNC_選刀2\CNC_選刀2\bin\Debug\CNC_選刀.pdb
+C:\Users\john.GIS\Desktop\CNC\CNC_選刀2\CNC_選刀2\obj\Debug\CNC_選刀.csprojAssemblyReference.cache
 C:\Users\john.GIS\Desktop\CNC\CNC_選刀2\CNC_選刀2\obj\Debug\CNC_選刀.Form1.resources
 C:\Users\john.GIS\Desktop\CNC\CNC_選刀2\CNC_選刀2\obj\Debug\CNC_選刀.Properties.Resources.resources
 C:\Users\john.GIS\Desktop\CNC\CNC_選刀2\CNC_選刀2\obj\Debug\CNC_選刀.csproj.GenerateResource.cache

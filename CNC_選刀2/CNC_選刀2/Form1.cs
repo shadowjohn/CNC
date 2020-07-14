@@ -132,7 +132,7 @@ namespace CNC_選刀
                 a.Items.Insert(2, "2號刀座");
                 a.Items.Insert(3, "3號刀座");
                 a.Items.Insert(4, "4號刀座");
-                a.Items.Insert(5, "切斷刀");
+                a.Items.Insert(5, "切斷刀／自銑刀");
                 a.Items.Insert(6, "磨邊刀");
 
                 b.Items.Insert(0, "--請選擇--");
