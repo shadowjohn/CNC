@@ -13,6 +13,9 @@
 <img src="screenshot/screenshot2.jpg">
 
 ChangeLog:
+* 2021-03-26 V1.3 *
+儲存後，將 M6T? 下都插入 GoSub user_4
+
 * 2020-07-14 V1.2 *
 M6T1 2 3 4 6，會將 G1 Z+、- 改成 G1 Z+
 M6T5 會將 G1 Z+、- 改成 G1 Z- 
