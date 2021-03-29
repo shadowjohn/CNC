@@ -65,3 +65,13 @@ F:\mytools\CNC_-\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.csproj.GenerateRes
 F:\mytools\CNC_-\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.csproj.CoreCompileInputs.cache
 F:\mytools\CNC_-\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.exe
 F:\mytools\CNC_-\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.pdb
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\bin\Debug\CNC_選刀.exe.config
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\bin\Debug\CNC_選刀.exe
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\bin\Debug\CNC_選刀.pdb
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.csprojAssemblyReference.cache
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.Form1.resources
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.Properties.Resources.resources
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.csproj.GenerateResource.cache
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.csproj.CoreCompileInputs.cache
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.exe
+F:\mytools\CNC\CNC_選刀3\CNC_選刀3\obj\Debug\CNC_選刀.pdb

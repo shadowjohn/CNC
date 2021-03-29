@@ -258,17 +258,26 @@ namespace CNC_選刀
             output.Add(CC.m_data[CC.m_data.Count - 1]);
 
             //2021-03-26 如果遇到M6T，下一行如果不是GoSub user_4，就加上 GoSub user_4
-            for (int i = 0; i < output.Count; i++)
+            for (int i = 0; i < output.Count - 1; i++)
             {
-                if (my.is_string_like(output[i], "M6T"))
+                if (my.is_istring_like(output[i].Trim(),"M6T" ) && !my.is_istring_like(output[i].Trim() ,"GoSub user_4"))
                 {
-                    if (output[i + 1].ToLower() != "GoSub user_4".ToLower())
+                    if (!my.is_istring_like(output[i + 1].Trim().ToLower(), "GoSub user_4"))
                     {
                         output[i] += "\r\n" + "GoSub user_4";
                     }
                 }
             }
 
+            //remove double GoSub user_4
+            for (int i = output.Count - 1; i >= 1; i--)
+            {
+                if (my.is_istring_like(output[i].Trim(), "GoSub user_4") && my.is_istring_like(output[i - 1].Trim(), "GoSub user_4"))
+                {
+                    output.RemoveRange(i, i);                    
+                }
+            }            
+            //Console.WriteLine(output);
             try
             {
                 //my.file_put_contents(CC.orin_path, my.s2b(my.implode("\r\n", output)));
